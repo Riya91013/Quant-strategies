@@ -4,6 +4,9 @@ Created on Tue Jan 24 12:13:08 2023
 
 @author: riyas
 """
+#trying to frist make three data frames according to the tokens available in the given data frame
+#then first drwaing a simple graph between price and time
+#then building a function to dynamically draw a graph as data is given to it
 
 import pandas as pd
 import matplotlib.pyplot as plt
