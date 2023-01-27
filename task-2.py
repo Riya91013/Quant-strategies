@@ -4,7 +4,8 @@ Created on Tue Jan 24 10:39:13 2023
 
 @author: riyas
 """
-
+#Resampling data first to day wise and then to month to calculate the count for each month if the mob=vement was either 10% up or down from the opening of the month
+#and then moving onto the next month
 import pandas as pd
 
 df = pd.read_csv(r"C:\Users\riyas\Downloads\RELIANCE.csv")
